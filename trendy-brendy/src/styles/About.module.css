@@ -1,0 +1,77 @@
+.aboutmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 40px 20px; 
+}
+
+.aboutmain  div {
+    max-width: 900px; 
+    width: 100%;
+    text-align: left; 
+    margin-bottom: 2rem;
+}
+
+.aboutcontant p{
+    font-size: 15px;
+    /* font-weight: 600; */
+    margin-top: 15px;
+    text-align: justify;
+    color: rgb(91, 90, 90);
+}
+.aboutcontant h2{
+    font-weight:bolder;
+}
+
+.valuediv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+    padding:10px;
+    
+}
+
+.valuediv div{
+    border:0.5px solid rgb(196, 196, 196);
+    padding:20px;
+    margin:10px;
+    margin-bottom:0px;
+    border-radius: 5px;
+}
+
+.valuediv div p{
+    font-size: 13px;
+    margin-top:7px;
+    color:rgb(101, 100, 100);
+    /* text-align: justify; */
+}
+
+.icon{
+    margin-bottom:6px;
+}
+.teamdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+    padding:0px;
+    text-align: center;
+    /* border:1px solid black */
+}
+.teamdiv div{
+    margin:10px;
+    margin-top: 0px;
+    text-align: center;
+}
+.teamdiv div p{
+    font-size: 12px;
+    margin:5px;
+    color:rgb(124, 124, 124)
+}
+.imgstyle{
+    border-radius: 150px;
+    height:260px;
+    width:260px;
+    margin:10px;
+}

@@ -1,0 +1,153 @@
+.mainhome{
+    background-color: #fefefe;
+    padding-top:30px;
+}
+.mainwall{
+    height:75vh;
+    width:70vw;
+    border-radius: 12px;
+    background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCjSBlMTSc6MCtJEyO3HYxgTpWTCCYRdizFl1QzARdn22sLU1-IJwecTCqjnpBUxNFXKgT5UXk-3LKYg_ZoFIx4_JHCKCkEqYv_N0E0kQ37xXcG6Ma1IjKVK7u1_vjvz4P9QyjlNVEKPqkOdqBnUkAFq4T_rFSR0QuRxzi8XRhmqag4ZVrQbYeFTmDthnPdcBq1XtWyUVbHbxz3smddosBy8OndyI5862JxdL8nSg6IZE2STgKWzBQN8RIfnuwkV9uyKMKUBbfZ7Bg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:auto;
+    /* margin-top:30px; */
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 0 60px rgba(90, 57, 20, 0.818);
+
+}
+
+.mainwall h1{
+    margin-bottom:10px;
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+}
+.mainwall p{
+    margin-bottom:10px;
+    color: white;
+    /* font-weight: 900; */
+    /* font-size: 10px; */
+}
+
+.mainwall button{
+    padding:10px;
+    height:40px;
+    width:auto;
+    background-color: white;
+    border-radius:10px;
+    border:none;
+    font-size: 15px;
+}
+
+.featuredSection {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.featuredHeading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #111;
+  margin-left:20px;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  gap: 5px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.productCard {
+  background-color: #fff;
+  /* border-radius: 18px; */
+  /* box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productImage {
+  width: 85%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.cardText {
+    padding:10px;
+  padding-left: 22px;
+  text-align: left;
+}
+
+.productTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 8px 0 4px;
+}
+
+.productDescription {
+  font-size: 0.8rem;
+  color: #747474;
+}
+
+.reviewSection {
+  padding: 40px 20px;
+  max-width: 850px;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  background-color: #fefefe;
+}
+
+.reviewHeading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+.reviewCard {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 35px;
+  gap: 16px;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-weight: 600;
+  color: #1e1e1e;
+  margin-bottom: 2px;
+}
+
+.date {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+.stars {
+  color: #c5c5c5;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.text {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #2f2f2f;
+}

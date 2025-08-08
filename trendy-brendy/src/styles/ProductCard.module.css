@@ -1,0 +1,84 @@
+/* src/components/ProductCard.module.css */
+.card {
+  background-color: #ffffff00;
+  border-radius: 16px;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+  padding: 16px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.20);
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 8px 0;
+}
+
+.price {
+  font-size: 14px;
+  color: #777;
+}
+
+/* src/app/AllProducts.module.css */
+.container {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: start;
+  gap: 32px;
+}
+
+.heading {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.drop{
+  width:80%;
+  height:50px;
+  padding:10px;
+  margin:7px;
+  border-radius:10px;
+  margin-left:0px;
+  font-size:15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.09);
+  border:0.5px solid rgb(193, 192, 192)
+}
+
+.droplab{
+  font-size: 15px;
+  color:#484848;  
+}
+
+.addtocartbtn{
+  height:40px;
+  width:70%;
+  background-color: rgb(132, 99, 57);
+  color:white;
+  border:none ;
+  margin:10px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(116, 116, 115, 0.084);
+}
